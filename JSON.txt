@@ -1,0 +1,394 @@
+{
+  "departmentList": [
+    {
+      "name": "CS",
+      "courseList": [
+        {
+          "name": "Adv Pr",
+          "id": "100000",
+          "unitCount": 4,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "BACHELOR",
+          "teacherUsername": "beh",
+          "studentUsernameList": [
+            "arian",
+            "pari",
+            "arman"
+          ]
+        },
+        {
+          "name": "Feminism",
+          "id": "100001",
+          "unitCount": 9,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "MASTERSHIP",
+          "teacherUsername": "yasna",
+          "studentUsernameList": [
+            "arian",
+            "pari",
+            "arman"
+          ]
+        }
+      ],
+      "studentList": [
+        {
+          "isRegistrationAllowed": true,
+          "registerTime": "2022-04-27T08:57:19.547327300",
+          "registrationCertificate": "Allowed",
+          "eduStatus": "educating",
+          "recomRequestList": [],
+          "minorRequestList": [],
+          "degree": "BACHELOR",
+          "dormRequestList": [],
+          "studentNumber": "31141",
+          "guideUsername": "yasna",
+          "username": "arian",
+          "name": "Arian Fazli",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "isRegistrationAllowed": true,
+          "registerTime": "2022-04-27T08:57:19.549267100",
+          "registrationCertificate": "Allowed",
+          "eduStatus": "educating",
+          "recomRequestList": [],
+          "minorRequestList": [],
+          "degree": "PHD",
+          "dormRequestList": [],
+          "studentNumber": "6652",
+          "guideUsername": "beh",
+          "username": "pari",
+          "name": "PARIA",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "isRegistrationAllowed": true,
+          "registerTime": "2022-04-27T08:57:19.549267100",
+          "registrationCertificate": "Allowed",
+          "eduStatus": "educating",
+          "recomRequestList": [],
+          "minorRequestList": [],
+          "degree": "MASTERSHIP",
+          "dormRequestList": [],
+          "studentNumber": "1000002",
+          "guideUsername": "beh",
+          "username": "arman",
+          "name": "Arman Kesh",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "teacherList": [
+        {
+          "degree": "teacher3",
+          "roomId": "12512",
+          "id": "1000000",
+          "username": "ali",
+          "name": "Ali",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "degree": "teacher2",
+          "roomId": "85858",
+          "id": "1000001",
+          "username": "beh",
+          "name": "BEHRAD",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "degree": "teacher1",
+          "roomId": "89123",
+          "id": "1000002",
+          "username": "yasna",
+          "name": "Yasna",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "adminUsername": "ali",
+      "assistantUsername": "beh"
+    },
+    {
+      "name": "C Eng",
+      "courseList": [
+        {
+          "name": "Network+",
+          "id": "100002",
+          "unitCount": 3,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "BACHELOR",
+          "teacherUsername": "faranak",
+          "studentUsernameList": [
+            "mamad",
+            "arian"
+          ]
+        },
+        {
+          "name": "OS",
+          "id": "100003",
+          "unitCount": 5,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "MASTERSHIP",
+          "teacherUsername": "kiana",
+          "studentUsernameList": [
+            "pari"
+          ]
+        }
+      ],
+      "studentList": [
+        {
+          "isRegistrationAllowed": true,
+          "registerTime": "2022-04-27T08:57:19.551319800",
+          "registrationCertificate": "Allowed",
+          "eduStatus": "educating",
+          "recomRequestList": [],
+          "minorRequestList": [],
+          "degree": "MASTERSHIP",
+          "dormRequestList": [],
+          "studentNumber": "1000003",
+          "username": "mamad",
+          "name": "Mamad Mamadi",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "teacherList": [
+        {
+          "degree": "teacher2",
+          "id": "1000003",
+          "username": "faranak",
+          "name": "Faranak Faranaki",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "degree": "teacher2",
+          "id": "1000004",
+          "username": "kiana",
+          "name": "Kiana Kianaii",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "adminUsername": "faranak",
+      "assistantUsername": "kiana"
+    },
+    {
+      "name": "Electronic Engineering",
+      "courseList": [
+        {
+          "name": "Logical Circuts",
+          "id": "100004",
+          "unitCount": 2,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "BACHELOR",
+          "teacherUsername": "zahra",
+          "studentUsernameList": [
+            "mahsa",
+            "pari"
+          ]
+        },
+        {
+          "name": "OOP",
+          "id": "100005",
+          "unitCount": 7,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "BACHELOR",
+          "teacherUsername": "atarodi",
+          "studentUsernameList": [
+            "arian",
+            "mamad"
+          ]
+        }
+      ],
+      "studentList": [
+        {
+          "isRegistrationAllowed": true,
+          "registerTime": "2022-04-27T08:57:19.552319700",
+          "registrationCertificate": "Allowed",
+          "eduStatus": "educating",
+          "recomRequestList": [],
+          "minorRequestList": [],
+          "degree": "BACHELOR",
+          "dormRequestList": [],
+          "studentNumber": "1000004",
+          "username": "mahsa",
+          "name": "Mahsa Mahsaii",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "teacherList": [
+        {
+          "degree": "teacher3",
+          "id": "1000005",
+          "username": "zahra",
+          "name": "Zahra zahraii",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "degree": "teacher2",
+          "id": "1000006",
+          "username": "atarodi",
+          "name": "Dr Atarodi",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "adminUsername": "rahele",
+      "assistantUsername": "zahra"
+    },
+    {
+      "name": "Physics",
+      "courseList": [
+        {
+          "name": "Gen Physic",
+          "id": "100006",
+          "unitCount": 2,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "BACHELOR",
+          "teacherUsername": "davood",
+          "studentUsernameList": [
+            "mamad",
+            "arian"
+          ]
+        }
+      ],
+      "studentList": [
+        {
+          "isRegistrationAllowed": true,
+          "registerTime": "2022-04-27T08:57:19.553587100",
+          "registrationCertificate": "Allowed",
+          "eduStatus": "educating",
+          "recomRequestList": [],
+          "minorRequestList": [],
+          "degree": "PHD",
+          "dormRequestList": [],
+          "studentNumber": "1000005",
+          "username": "bami",
+          "name": "Bamdad",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "teacherList": [
+        {
+          "roomId": "234jf",
+          "id": "1000007",
+          "username": "rahele",
+          "name": "Rahele raheleii",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "roomId": "2342",
+          "id": "1000008",
+          "username": "davood",
+          "name": "Davood Davoody",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "assistantUsername": "davood"
+    },
+    {
+      "name": "Chemistry Dep",
+      "courseList": [
+        {
+          "name": "Chemistry Ali",
+          "id": "100007",
+          "unitCount": 1,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "BACHELOR",
+          "teacherUsername": "duck",
+          "studentUsernameList": [
+            "pari",
+            "naomi"
+          ]
+        },
+        {
+          "name": "Basic Chemistry",
+          "id": "100008",
+          "unitCount": 3,
+          "examList": [],
+          "sessionList": [],
+          "finalMarks": [],
+          "finished": false,
+          "degree": "BACHELOR",
+          "teacherUsername": "duck",
+          "studentUsernameList": [
+            "naomi",
+            "bami"
+          ]
+        }
+      ],
+      "studentList": [
+        {
+          "isRegistrationAllowed": true,
+          "registerTime": "2022-04-27T08:57:19.554377100",
+          "registrationCertificate": "Allowed",
+          "eduStatus": "educating",
+          "recomRequestList": [],
+          "minorRequestList": [],
+          "degree": "BACHELOR",
+          "dormRequestList": [],
+          "studentNumber": "1000006",
+          "username": "naomi",
+          "name": "Naomi Naomii",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "teacherList": [
+        {
+          "roomId": "2341",
+          "id": "1000009",
+          "username": "horse",
+          "name": "Horse Horsy",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        },
+        {
+          "degree": "teacher2",
+          "roomId": "234111",
+          "id": "1000010",
+          "username": "duck",
+          "name": "Duck Ducky",
+          "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+          "isDeleted": false
+        }
+      ],
+      "adminUsername": "horse",
+      "assistantUsername": "duck"
+    }
+  ]
+}

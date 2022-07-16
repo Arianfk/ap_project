@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="100" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="courseNameLabel" layoutX="14.0" layoutY="22.0" text="Course Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="teacherNameLabel" layoutX="14.0" layoutY="57.0" text="Teacher Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button onAction="#onInfoButtonClicked" fx:id="infoButton" layoutX="403.0" layoutY="23.0" mnemonicParsing="false" prefWidth="82.0" text="info" />
+      <Button onAction="#onEditButtonClicked" fx:id="editButton" layoutX="404.0" layoutY="54.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="edit" />
+   </children>
+</AnchorPane>

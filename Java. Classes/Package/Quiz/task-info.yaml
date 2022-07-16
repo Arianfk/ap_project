@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: to store variables
+- text: to store data as a database
+- text: to group classes
+- text: to prevent the conflict of class names
+- text: ' to control access of classes and fields (together with access modifiers)'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Tue, 22 Feb 2022 14:43:18 UTC
+record: -1
+selected_options:
+- 2
+- 3
+- 4

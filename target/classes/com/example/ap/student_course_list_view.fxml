@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap.StudentCourseListPane">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Course List: " />
+      <ListView fx:id="courseListView" layoutX="186.0" layoutY="14.0" prefHeight="350" prefWidth="400.0" style="-fx-padding: 0px;" />
+      <TextField fx:id="teacherFilterField" layoutX="14.0" layoutY="66.0" promptText="Teacher Name" />
+      <TextField fx:id="unitFilterField" layoutX="15.0" layoutY="92.0" promptText="Unit Count" />
+      <TextField fx:id="idFilterFiled" layoutX="15.0" layoutY="118.0" promptText="Course Id" />
+      <Button onAction="#filter" layoutX="14.0" layoutY="150.0" mnemonicParsing="false" text="Filter" />
+   </children>
+</AnchorPane>

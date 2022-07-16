@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/16"
+            fx:controller="com.example.ap.TeacherCourseListPane">
+    <children>
+        <ListView fx:id="listView" layoutX="14.0" layoutY="14.0" prefHeight="350.0" prefWidth="500.0"/>
+        <Button fx:id="newCourseButton" layoutX="521.0" layoutY="14.0" mnemonicParsing="false"
+                onAction="#onNewCourseButtonClicked" prefHeight="26.0" prefWidth="130.0" text="New Course"/>
+        <Button fx:id="editSessionsButton" layoutX="521.0" layoutY="47.0" mnemonicParsing="false"
+                onAction="#editSessionsButtonClicked" prefHeight="26.0" prefWidth="130.0" text="Edit Sessions"/>
+        <TextField fx:id="unitField" layoutX="521.0" layoutY="83.0" prefHeight="26.0" prefWidth="130.0"
+                   promptText="Unit Count"/>
+        <TextField fx:id="nameField" layoutX="521.0" layoutY="109.0" prefHeight="26.0" prefWidth="130.0"
+                   promptText="Teacher Name"/>
+        <ComboBox fx:id="degreeCombo" layoutX="521.0" layoutY="135.0" prefHeight="26.0" prefWidth="130.0"
+                  promptText="Degree"/>
+        <Button layoutX="521.0" layoutY="163.0" mnemonicParsing="false" onAction="#filter" text="Filter"/>
+        <Button onAction="#clear" layoutX="610.0" layoutY="163.0" mnemonicParsing="false" prefHeight="26.0"
+                prefWidth="42.0" text="clear"/>
+    </children>
+</AnchorPane>

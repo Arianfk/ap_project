@@ -1,0 +1,35 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: A method in subclass must have the same argument list as a method in base
+    class.
+- text: A method in super class must have the keyword "protected".
+- text: A method in subclass must have the annotation @Override.
+- text: A method in subclass must have the same returning type or a subclass of the
+    returning type.
+- text: A method in subclass must have not less access modifier as a method in base
+    class.
+- text: A method in subclass must have the same name as a method in base class.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 08 Mar 2022 14:54:33 UTC
+record: -1
+selected_options:
+- 0
+- 3
+- 4
+- 5
+custom_name: Quiz

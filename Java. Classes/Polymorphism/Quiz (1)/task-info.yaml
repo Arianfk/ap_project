@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Method overloading is a kind of dynamic polymorphism
+- text: Method overloading is a kind of static polymorphism
+- text: Method overriding is a kind of dynamic polymorphism
+- text: Method overriding is a kind of static polymorphism
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 13 Mar 2022 14:33:22 UTC
+record: -1
+selected_options:
+- 1
+- 2
+custom_name: Quiz

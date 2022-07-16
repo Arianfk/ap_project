@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap.MainPageViewController">
+    <children>
+        <AnchorPane fx:id="menu" prefHeight="70.0" prefWidth="860.0">
+            <children>
+                <Button layoutX="789.0" layoutY="2.0" mnemonicParsing="false" onAction="#logOut" prefHeight="70.0" prefWidth="70.0" text="Log Out!" />
+                <ImageView fx:id="userImageView" fitHeight="70.0" fitWidth="70.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="userNameLabel" layoutX="76.0" layoutY="16.0" prefHeight="18.0" prefWidth="202.0" />
+                <Label fx:id="userEmailLabel" layoutX="76.0" layoutY="38.0" prefHeight="18.0" prefWidth="202.0" />
+                <Label fx:id="userLastLogInLabel" layoutX="366.0" layoutY="15.0" prefHeight="18.0" prefWidth="253.0" text="Last Log In: " />
+                <Label fx:id="timeLabel" layoutX="366.0" layoutY="38.0" prefHeight="18.0" prefWidth="254.0" text="Time: " />
+            </children>
+        </AnchorPane>
+        <TabPane fx:id="tabPane" layoutY="73.0" prefHeight="430.0" prefWidth="860.0" tabClosingPolicy="UNAVAILABLE">
+        </TabPane>
+    </children>
+</AnchorPane>

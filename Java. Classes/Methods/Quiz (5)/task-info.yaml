@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: SomeClass instance = new SomeClass();
+- text: It's impossible.
+- text: SomeClass instance = new SomeClass(10);
+- text: SomeClass instance = SomeClass.defaultConstructor();
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Sat, 01 Jan 2022 06:22:11 UTC
+record: -1
+selected_options:
+- 0
+custom_name: Quiz

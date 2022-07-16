@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap.StudentStatusPane">
+   <children>
+      <Label fx:id="averageLabel" layoutX="14.0" layoutY="14.0" text="Average: " />
+      <Label fx:id="unitsLabel" layoutX="14.0" layoutY="32.0" text="Unit passed: " />
+      <ListView fx:id="listView" layoutX="139.0" layoutY="14.0" prefHeight="320.0" prefWidth="400.0" />
+   </children>
+</AnchorPane>

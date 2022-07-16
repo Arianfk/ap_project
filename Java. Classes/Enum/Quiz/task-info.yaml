@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: predefined constants
+- text: private constructor
+- text: public methods
+- text: public constructor
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Sun, 06 Mar 2022 14:34:50 UTC
+record: -1
+selected_options:
+- 0
+- 1
+- 2

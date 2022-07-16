@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Import statement can't import a class from a named package into a java file
+    inside the default package.
+- text: Any classes inside the default package are invisible for each other.
+- text: Import statement can't import a class from the default package into a java
+    file inside a named package.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Tue, 22 Feb 2022 14:45:08 UTC
+record: -1
+selected_options:
+- 2
+custom_name: Quiz

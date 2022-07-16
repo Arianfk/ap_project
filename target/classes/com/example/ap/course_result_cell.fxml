@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="80.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="30.0" text="Course Name" fx:id="courseNameLabel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="193.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" text="Objection" fx:id="objectButton" />
+      <TextField layoutX="437.0" layoutY="27.0" prefHeight="26.0" prefWidth="50.0" fx:id="markField"/>
+   </children>
+</AnchorPane>

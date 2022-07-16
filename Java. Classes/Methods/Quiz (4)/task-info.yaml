@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: SomeClass instance = SomeClass();
+- text: SomeClass instance = new SomeClass(2);
+- text: SomeClass instance = new SomeClass(new int[] {1 , 2});
+- text: SomeClass instance = new SomeClass(2, 3);
+- text: SomeClass instance = SomeClass(5);
+- text: SomeClass instance = new SomeClass();
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Sat, 01 Jan 2022 06:20:57 UTC
+record: -1
+selected_options:
+- 1
+- 3
+custom_name: Quiz

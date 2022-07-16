@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="nameField" layoutX="14.0" layoutY="14.0" promptText="Name" />
+      <TextField fx:id="usernameField" layoutX="14.0" layoutY="46.0" promptText="Username" />
+      <TextField fx:id="roomField" layoutX="14.0" layoutY="78.0" promptText="Room ID" />
+      <ComboBox fx:id="degreeCombo" layoutX="14.0" layoutY="111.0" prefWidth="150.0" promptText="Degree" />
+      <TextField fx:id="passwordField" layoutX="14.0" layoutY="143.0" promptText="Password" visible="false" />
+   </children>
+</AnchorPane>

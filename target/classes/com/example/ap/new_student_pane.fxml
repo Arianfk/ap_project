@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap.NewStudentPane">
+   <children>
+      <TextField fx:id="usernameField" layoutX="15.0" layoutY="14.0" promptText="Username" />
+      <TextField fx:id="passwordField" layoutX="15.0" layoutY="46.0" promptText="Password" />
+      <TextField fx:id="nameField" layoutX="15.0" layoutY="78.0" promptText="Name" />
+      <DatePicker fx:id="birthDatePicker" layoutX="15.0" layoutY="110.0" promptText="Birthday" />
+      <TextField fx:id="codeField" layoutX="15.0" layoutY="143.0" promptText="National Code" />
+      <ComboBox fx:id="degreeCombo" layoutX="15.0" layoutY="175.0" prefWidth="150.0" promptText="Degree" />
+      <ComboBox fx:id="guideCombo" layoutX="15.0" layoutY="207.0" prefWidth="150.0" promptText="Guide Teacher" />
+      <Button onAction="#save" layoutX="15.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Save" />
+   </children>
+</AnchorPane>

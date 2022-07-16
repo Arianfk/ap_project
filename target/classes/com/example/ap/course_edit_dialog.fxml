@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="nameField" layoutX="15.0" layoutY="14.0" prefHeight="26.0" prefWidth="175.0" promptText="Name" />
+      <TextField fx:id="unitField" layoutX="15.0" layoutY="46.0" prefHeight="26.0" prefWidth="175.0" promptText="Unit Count" />
+      <ComboBox fx:id="teacherCombo" layoutX="15.0" layoutY="78.0" prefHeight="26.0" prefWidth="175.0" promptText="Teacher" />
+      <DatePicker fx:id="datePicker" layoutX="15.0" layoutY="140.0" prefWidth="175" promptText="Final Exam Date" />
+      <TextField fx:id="hourField" layoutX="14.0" layoutY="172.0" prefHeight="26.0" prefWidth="84.0" promptText="Start Hour" />
+      <TextField fx:id="minuteField" layoutX="106.0" layoutY="172.0" prefHeight="26.0" prefWidth="84.0" promptText="Start Minute" />
+      <Label layoutX="15.0" layoutY="116.0" text="Final Exam: " />
+   </children>
+</AnchorPane>

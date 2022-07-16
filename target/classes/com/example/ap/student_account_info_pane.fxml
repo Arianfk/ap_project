@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16"
+            fx:controller="com.example.ap.StudentAccountInfoPane">
+    <children>
+        <Label fx:id="nameLabel" layoutX="14.0" layoutY="14.0" text="Name: "/>
+        <Label fx:id="nationalCodeLabel" layoutX="14.0" layoutY="32.0" text="National Code: "/>
+        <Label fx:id="studentCodeLabel" layoutX="14.0" layoutY="50.0" text="Student Code: "/>
+        <Label fx:id="markLabel" layoutX="14.0" layoutY="68.0" text="Total Average Mark: "/>
+        <Label fx:id="departmentLabel" layoutX="14.0" layoutY="84.0" text="Department of "/>
+        <Label fx:id="teacherLabel" layoutX="14.0" layoutY="102.0" text="Guide Teacher Name: "/>
+        <Label fx:id="enterYearLabel" layoutX="14.0" layoutY="120.0" text="Entered "/>
+        <Label fx:id="degreeLabel" layoutX="14.0" layoutY="138.0" text="Studying Degree: "/>
+        <Label fx:id="stateLabel" layoutX="14.0" layoutY="155.0" text="State: "/>
+        <TextField fx:id="phoneNumberField" layoutX="14.0" layoutY="173.0" promptText="Phone Number"/>
+        <TextField fx:id="emailField" layoutX="14.0" layoutY="200.0" promptText="Email"/>
+        <ImageView fx:id="userImageView" fitHeight="200.0" fitWidth="200.0" layoutX="386.0" layoutY="20.0"
+                   pickOnBounds="true" preserveRatio="true"/>
+        <Button layoutX="14.0" layoutY="226.0" mnemonicParsing="false" text="Save" onAction="#save"/>
+    </children>
+</AnchorPane>
